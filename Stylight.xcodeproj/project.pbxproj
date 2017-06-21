@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		797259AF1EFAB46C0086F89B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259AE1EFAB46C0086F89B /* AppDelegate.swift */; };
-		797259B11EFAB46C0086F89B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259B01EFAB46C0086F89B /* ViewController.swift */; };
 		797259B41EFAB46C0086F89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797259B21EFAB46C0086F89B /* Main.storyboard */; };
 		797259B61EFAB46C0086F89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797259B51EFAB46C0086F89B /* Assets.xcassets */; };
 		797259B91EFAB46C0086F89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797259B71EFAB46C0086F89B /* LaunchScreen.storyboard */; };
+		797259C31EFAB6480086F89B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259C21EFAB6480086F89B /* NetworkManager.swift */; };
+		797259C61EFAB67F0086F89B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259C51EFAB67F0086F89B /* Constants.swift */; };
+		797259C91EFAB6EB0086F89B /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259C81EFAB6EB0086F89B /* BasePresenter.swift */; };
+		797259CC1EFAB7020086F89B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259CB1EFAB7020086F89B /* BaseModel.swift */; };
+		797259CE1EFAB7360086F89B /* BrandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259CD1EFAB7360086F89B /* BrandsModel.swift */; };
+		797259D01EFAB82B0086F89B /* BrandsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259CF1EFAB82B0086F89B /* BrandsPresenter.swift */; };
+		797259D51EFABEB90086F89B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259D41EFABEB90086F89B /* BaseViewController.swift */; };
+		797259D71EFABED30086F89B /* BrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259D61EFABED30086F89B /* BrandsViewController.swift */; };
+		797259DA1EFABFD50086F89B /* BrandsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259D91EFABFD50086F89B /* BrandsTableViewCell.swift */; };
+		797259DF1EFAD0240086F89B /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797259DE1EFAD0240086F89B /* HeaderView.swift */; };
+		C477B1E2B323C16639925591 /* Pods_Stylight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B82726D67910CAFD451521 /* Pods_Stylight.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6ED51A3BE1E6E6E8693C275F /* Pods-Stylight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight/Pods-Stylight.debug.xcconfig"; sourceTree = "<group>"; };
 		797259AB1EFAB46C0086F89B /* Stylight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stylight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797259AE1EFAB46C0086F89B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		797259B01EFAB46C0086F89B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		797259B31EFAB46C0086F89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		797259B51EFAB46C0086F89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797259B81EFAB46C0086F89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		797259BA1EFAB46C0086F89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797259C21EFAB6480086F89B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		797259C51EFAB67F0086F89B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		797259C81EFAB6EB0086F89B /* BasePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
+		797259CB1EFAB7020086F89B /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		797259CD1EFAB7360086F89B /* BrandsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsModel.swift; sourceTree = "<group>"; };
+		797259CF1EFAB82B0086F89B /* BrandsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsPresenter.swift; sourceTree = "<group>"; };
+		797259D41EFABEB90086F89B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		797259D61EFABED30086F89B /* BrandsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsViewController.swift; sourceTree = "<group>"; };
+		797259D91EFABFD50086F89B /* BrandsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsTableViewCell.swift; sourceTree = "<group>"; };
+		797259DE1EFAD0240086F89B /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A9B82726D67910CAFD451521 /* Pods_Stylight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stylight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33DA9A5B0B4FD987F29F128 /* Pods-Stylight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylight.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stylight/Pods-Stylight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C477B1E2B323C16639925591 /* Pods_Stylight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B21F47EF53D62014F381FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ED51A3BE1E6E6E8693C275F /* Pods-Stylight.debug.xcconfig */,
+				F33DA9A5B0B4FD987F29F128 /* Pods-Stylight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		797259A21EFAB46C0086F89B = {
 			isa = PBXGroup;
 			children = (
 				797259AD1EFAB46C0086F89B /* Stylight */,
 				797259AC1EFAB46C0086F89B /* Products */,
+				3B21F47EF53D62014F381FA1 /* Pods */,
+				D9BD28F11241AC0A91A411EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,111 @@
 		797259AD1EFAB46C0086F89B /* Stylight */ = {
 			isa = PBXGroup;
 			children = (
+				797259D21EFABE920086F89B /* View */,
+				797259D11EFABE8C0086F89B /* Controller */,
+				797259CA1EFAB6F70086F89B /* Model */,
+				797259C71EFAB6DE0086F89B /* Presenter */,
+				797259C41EFAB6730086F89B /* Utils */,
+				797259C11EFAB5AB0086F89B /* Network */,
+				797259C01EFAB5960086F89B /* Supporting Files */,
+			);
+			path = Stylight;
+			sourceTree = "<group>";
+		};
+		797259C01EFAB5960086F89B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				797259AE1EFAB46C0086F89B /* AppDelegate.swift */,
-				797259B01EFAB46C0086F89B /* ViewController.swift */,
-				797259B21EFAB46C0086F89B /* Main.storyboard */,
 				797259B51EFAB46C0086F89B /* Assets.xcassets */,
 				797259B71EFAB46C0086F89B /* LaunchScreen.storyboard */,
 				797259BA1EFAB46C0086F89B /* Info.plist */,
 			);
-			path = Stylight;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		797259C11EFAB5AB0086F89B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				797259C21EFAB6480086F89B /* NetworkManager.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		797259C41EFAB6730086F89B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				797259C51EFAB67F0086F89B /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		797259C71EFAB6DE0086F89B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				797259C81EFAB6EB0086F89B /* BasePresenter.swift */,
+				797259CF1EFAB82B0086F89B /* BrandsPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		797259CA1EFAB6F70086F89B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				797259CB1EFAB7020086F89B /* BaseModel.swift */,
+				797259CD1EFAB7360086F89B /* BrandsModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		797259D11EFABE8C0086F89B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				797259D41EFABEB90086F89B /* BaseViewController.swift */,
+				797259D61EFABED30086F89B /* BrandsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		797259D21EFABE920086F89B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				797259DD1EFAD0120086F89B /* UIView */,
+				797259D81EFABFBD0086F89B /* TableView Cells */,
+				797259D31EFABEA20086F89B /* Storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		797259D31EFABEA20086F89B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				797259B21EFAB46C0086F89B /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		797259D81EFABFBD0086F89B /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				797259D91EFABFD50086F89B /* BrandsTableViewCell.swift */,
+			);
+			name = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		797259DD1EFAD0120086F89B /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				797259DE1EFAD0240086F89B /* HeaderView.swift */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		D9BD28F11241AC0A91A411EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B82726D67910CAFD451521 /* Pods_Stylight.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797259BD1EFAB46C0086F89B /* Build configuration list for PBXNativeTarget "Stylight" */;
 			buildPhases = (
+				A16D3EA25BD7B4DA259DE1D5 /* [CP] Check Pods Manifest.lock */,
 				797259A71EFAB46C0086F89B /* Sources */,
 				797259A81EFAB46C0086F89B /* Frameworks */,
 				797259A91EFAB46C0086F89B /* Resources */,
+				EA34877DDD5146F284FAEA2C /* [CP] Embed Pods Frameworks */,
+				36801EDE0CD48827AEFB48AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +266,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36801EDE0CD48827AEFB48AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stylight/Pods-Stylight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A16D3EA25BD7B4DA259DE1D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA34877DDD5146F284FAEA2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stylight/Pods-Stylight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		797259A71EFAB46C0086F89B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797259B11EFAB46C0086F89B /* ViewController.swift in Sources */,
 				797259AF1EFAB46C0086F89B /* AppDelegate.swift in Sources */,
+				797259DA1EFABFD50086F89B /* BrandsTableViewCell.swift in Sources */,
+				797259CE1EFAB7360086F89B /* BrandsModel.swift in Sources */,
+				797259C91EFAB6EB0086F89B /* BasePresenter.swift in Sources */,
+				797259C31EFAB6480086F89B /* NetworkManager.swift in Sources */,
+				797259D01EFAB82B0086F89B /* BrandsPresenter.swift in Sources */,
+				797259D51EFABEB90086F89B /* BaseViewController.swift in Sources */,
+				797259DF1EFAD0240086F89B /* HeaderView.swift in Sources */,
+				797259C61EFAB67F0086F89B /* Constants.swift in Sources */,
+				797259D71EFABED30086F89B /* BrandsViewController.swift in Sources */,
+				797259CC1EFAB7020086F89B /* BaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +452,7 @@
 		};
 		797259BE1EFAB46C0086F89B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED51A3BE1E6E6E8693C275F /* Pods-Stylight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RBZ2UQ2323;
@@ -274,6 +466,7 @@
 		};
 		797259BF1EFAB46C0086F89B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33DA9A5B0B4FD987F29F128 /* Pods-Stylight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RBZ2UQ2323;
@@ -304,6 +497,7 @@
 				797259BF1EFAB46C0086F89B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

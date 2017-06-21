@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "797259AA1EFAB46C0086F89B"
-               BuildableName = "Stylight.app"
-               BlueprintName = "Stylight"
-               ReferencedContainer = "container:Stylight.xcodeproj">
+               BlueprintIdentifier = "BFA49FB40157F730797CE3B19DC0EBBA"
+               BuildableName = "Pods_Stylight.framework"
+               BlueprintName = "Pods-Stylight"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "797259AA1EFAB46C0086F89B"
-            BuildableName = "Stylight.app"
-            BlueprintName = "Stylight"
-            ReferencedContainer = "container:Stylight.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "797259AA1EFAB46C0086F89B"
-            BuildableName = "Stylight.app"
-            BlueprintName = "Stylight"
-            ReferencedContainer = "container:Stylight.xcodeproj">
+            BlueprintIdentifier = "BFA49FB40157F730797CE3B19DC0EBBA"
+            BuildableName = "Pods_Stylight.framework"
+            BlueprintName = "Pods-Stylight"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "797259AA1EFAB46C0086F89B"
-            BuildableName = "Stylight.app"
-            BlueprintName = "Stylight"
-            ReferencedContainer = "container:Stylight.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
